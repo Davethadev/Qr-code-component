@@ -1,14 +1,13 @@
 body {
     font-family: sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background-color: hsl(212, 45%, 89%);
     overflow: hidden;
 }
 
 .card {
+    display: block;
+    margin: 50% auto;
     background-color: white;
     width: 240px;
     text-align: center;
